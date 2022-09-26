@@ -1,6 +1,6 @@
 //import { hello1, hello2 } from './hello.js';
-import * as hello from './hello.js';
-//as -> 어떤 이름으로 가져올 것인지 정해주기
+//import * as hell from './hello.js'; //as -> 어떤 이름으로 가져올 것인지 정해주기
+import hello1 from './hello.js';
 
-hello.hello1();
-hello.hello2();
+hello1();
+//hell.hello2();
